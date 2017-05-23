@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.leo.radarview.MainActivity">
+
+    <com.example.leo.radarview.RadarView
+        android:id="@+id/rv_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:defPaintColor="#f00"
+        app:maxValue="100"
+        app:defTextColor="#00f"
+        app:defValueColor="#0f0"/>
+
+</android.support.constraint.ConstraintLayout>

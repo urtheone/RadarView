@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RadarView">
+        <attr name="defPaintColor" format="color"/>
+        <attr name="defValueColor" format="color"/>
+        <attr name="defTextColor" format="color"/>
+        <attr name="defTextSize" format="dimension"/>
+        <attr name="maxValue" format="float"/>
+
+    </declare-styleable>
+</resources>
